@@ -1,0 +1,20 @@
+.ticketCard{
+    background-color: #fff;
+    box-shadow: 2px 2px 20px #aaa;
+    border-radius: 10px;
+}
+
+.gheshm{
+    width:70px;
+    height:70px;
+    border-radius: 200px;
+    border: 1px solid #ddd;
+}
+.gheshm img{
+    width:45px;
+    height:45px;
+
+}
+.watchOne{
+    font-size: 1.1em;
+}
