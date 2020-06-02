@@ -1,12 +1,8 @@
 import React, {Component} from "react";
 import Axios from "axios";
 import {connect} from 'react-redux'
-import {saveData} from "./state/Action";
-import {useHistory} from "react-router";
-
+import {saveData} from "./state/Action"
 class Add extends Component{
-
-
 constructor(props) {
     super(props);
     this.state={
@@ -14,7 +10,6 @@ constructor(props) {
         name:""
     }
 }
-
      ChangeApi=()=>{
          // return (dispatch)=>{
          if(this.state.name==="test"){
@@ -46,7 +41,7 @@ Change=(e)=>{
                 <form >
                 <input className='form-control mt-5' type="text" onChange={(e)=>this.Change(e)}/>
                 </form>
-             <button className='btn mt-5 btn-success p-3 m-2'
+             <button className='btn mt-2 btn-success p-3 m-2'
                      onClick={()=>this.ChangeApi()}
 
 
@@ -72,7 +67,6 @@ Change=(e)=>{
         )
     })
 }
-
             </div>
                 </div>
 
@@ -87,5 +81,4 @@ const MapDispatchToProps= dispatch =>{
         saveData: data => dispatch(saveData((data)))
     }
 }
-
 export default connect(MapStateToProps , MapDispatchToProps)(Add)
