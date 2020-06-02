@@ -11,21 +11,15 @@ constructor(props) {
     }
 }
      ChangeApi=()=>{
-         // return (dispatch)=>{
          if(this.state.name==="test"){
              const URL="https://jsonplaceholder.typicode.com/users"
              Axios.get(URL).then(res=>{
                  this.props.saveData(res.data)
-             }).then(data=>{
-
-                 // })
-             }).catch(err=>{
+             }).
+             catch(err=>{
                  throw err
              })
          }
-
-
-         // }
      }
 Change=(e)=>{
     this.setState({
@@ -43,25 +37,22 @@ Change=(e)=>{
                 </form>
              <button className='btn mt-2 btn-success p-3 m-2'
                      onClick={()=>this.ChangeApi()}
-
-
              >testClick
-
              </button>
             </div>
 
 {
-   this.props.name && this.props.name.map((id)=>{
+   this.props.name && this.props.name.map((item)=>{
         return(
-            <div className='col-9 ' key={id.id}>
+            <div className='col-9 ' key={item.id}>
                 <div className='d-flex align-items-start  justify-content-start mt-4 flex-column'>
-                <p className='mt-2'>{id.id}</p>
+                <p className='mt-2'>{item.id}</p>
                 </div>
                 <div className='d-flex align-items-end justify-content-end mt-5 flex-column' >
-                  <p className=''>{id.name}</p>
+                  <p className=''>{item.name}</p>
                 </div>
                 <div className='d-flex align-items-center justify-content-center mt-3 flex-column'>
-                <p className=''>{id.username}</p>
+                <p className=''>{item.username}</p>
                 </div>
             </div>
         )
