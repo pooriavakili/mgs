@@ -2,8 +2,7 @@ import React, {Component} from "react";
 import Axios from "axios";
 import {connect} from 'react-redux'
 import {saveData} from "./state/Action";
-import Posts from "./Posts";
-import divWithClassName from "react-bootstrap/cjs/divWithClassName";
+
 
 class Add extends Component{
 

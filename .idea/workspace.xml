@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="62be2abe-afcd-46d0-8e13-01e054551401" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\Users\dev3\Desktop\proje\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1chk1ttyXMnL0tQq0skAZsgWYjs" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="62be2abe-afcd-46d0-8e13-01e054551401" name="Default Changelist" comment="" />
+      <created>1590988001096</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1590988001096</updated>
+      <workItem from="1590988008526" duration="4389000" />
+      <workItem from="1590992683504" duration="7616000" />
+      <workItem from="1591003017875" duration="4071000" />
+      <workItem from="1591008544250" duration="6312000" />
+      <workItem from="1591015193539" duration="102000" />
+      <workItem from="1591073659287" duration="16899000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1591095418745">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1591095418745" />
+    <state x="649" y="170" key="FileChooserDialogImpl" timestamp="1591014890281">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="649" y="170" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1591014890281" />
+    <state x="2380" y="119" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1360.728@1920.0.1360.728" timestamp="1591008491858" />
+    <state x="384" y="133" key="Vcs.Push.Dialog.v2" timestamp="1591087549130">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="384" y="133" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1591087549130" />
+    <state x="2192" y="93" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1360.728@1920.0.1360.728" timestamp="1590999262881" />
+  </component>
+</project>
