@@ -2,7 +2,7 @@ import React, {Component} from "react";
 import Axios from "axios";
 import {connect} from 'react-redux'
 import {saveData} from "./state/Action";
-
+import {useHistory} from "react-router";
 
 class Add extends Component{
 
@@ -11,12 +11,13 @@ constructor(props) {
     super(props);
     this.state={
         showFavorite:false,
-        posts:[]
+        name:""
     }
 }
 
      ChangeApi=()=>{
          // return (dispatch)=>{
+         if(this.state.name==="test"){
              const URL="https://jsonplaceholder.typicode.com/users"
              Axios.get(URL).then(res=>{
                  this.props.saveData(res.data)
@@ -26,17 +27,30 @@ constructor(props) {
              }).catch(err=>{
                  throw err
              })
+         }
+
+
          // }
      }
-
+Change=(e)=>{
+    this.setState({
+        name:e.target.value
+    })
+}
     render() {
         console.log(this.props)
         return(
             <div className='container'>
                 <div className='row'>
             <div className='col-3 mr-auto  '>
+                <form >
+                <input className='form-control mt-5' type="text" onChange={(e)=>this.Change(e)}/>
+                </form>
              <button className='btn mt-5 btn-success p-3 m-2'
-                     onClick={()=>this.ChangeApi()}>testClick
+                     onClick={()=>this.ChangeApi()}
+
+
+             >testClick
 
              </button>
             </div>
@@ -44,9 +58,8 @@ constructor(props) {
 {
    this.props.name && this.props.name.map((id)=>{
         return(
-
             <div className='col-9 ' key={id.id}>
-                <div className='d-flex align-items-start justify-content-start mt-4 flex-column'>
+                <div className='d-flex align-items-start  justify-content-start mt-4 flex-column'>
                 <p className='mt-2'>{id.id}</p>
                 </div>
                 <div className='d-flex align-items-end justify-content-end mt-5 flex-column' >
@@ -56,16 +69,10 @@ constructor(props) {
                 <p className=''>{id.username}</p>
                 </div>
             </div>
-
-
         )
     })
 }
-                <div>
-                    <h1>
-                        {this.state.name}
-                    </h1>
-                </div>
+
             </div>
                 </div>
 
